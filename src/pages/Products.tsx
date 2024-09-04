@@ -7,6 +7,7 @@ import Roupas_4 from '../assets/images/products/roupas_4.jpg';
 import Roupas_5 from '../assets/images/products/roupas_5.jpg';
 import Coleiras from '../assets/images/products/coleiras.jpg';
 import Limpeza from '../assets/images/products/limpeza.jpg';
+import Racao from '../assets/images/products/racao.jpg';
 
 const products = [
   { id: 1, name: 'Roupas', image: Roupas },
@@ -16,6 +17,7 @@ const products = [
   { id: 5, name: 'Roupas', image: Roupas_5 },
   { id: 6, name: 'Coleiras', image: Coleiras },
   { id: 7, name: 'Shampoo', image: Limpeza },
+  {id: 8, name: 'Ração', image: Racao},
 ];
 
 const Products = () => {

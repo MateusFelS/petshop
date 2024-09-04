@@ -17,21 +17,21 @@ const AboutUs = () => {
         },
         { 
             id: 2, 
-            name: "Pedro", 
+            name: "Maia", 
             image: Caso_2,
-            testimonial: "O atendimento da Família Quatro Patas foi fundamental para a recuperação do Pedro. Somos muito gratos!" 
+            testimonial: "O atendimento da Família Quatro Patas foi fundamental para a recuperação da Maia. Somos muito gratos!" 
         },
         { 
             id: 3, 
             name: "Paçoca", 
             image: Caso_3,
-            testimonial: "Meu Paçoca foi tratado com tanto amor e dedicação, que só tenho a agradecer!" 
+            testimonial: "Minha Paçoca foi tratado com tanto amor e dedicação, que só tenho a agradecer!" 
         },
         { 
             id: 4, 
-            name: "Maia", 
+            name: "Pedro", 
             image: Caso_4,
-            testimonial: "A Maia recebeu o melhor cuidado possível aqui. Recomendo a todos que amam seus pets!" 
+            testimonial: "O Pedro recebeu o melhor cuidado possível aqui. Recomendo a todos que amam seus pets!" 
         },
     ];
 
@@ -66,6 +66,14 @@ const AboutUs = () => {
                 <li>📞 Telefone: (14) 996858486</li>
                 <li>✉ Email: ac.watanabe@outlook.com</li>
             </ul>
+            
+            <h3 className="text-2xl font-semibold mb-4">Horários de Atendimento</h3>
+            <ul className="list-disc pl-8 mb-4">
+                <li>Segunda à Sexta: 9:00 - 18:00</li>
+                <li>Sábado: 9:00 - 12:00</li>
+                <li>Domingo: Fechado</li>
+            </ul>
+
             <h3 className="text-2xl font-semibold mb-4">Destaques</h3>
             <p className="text-lg mb-4">Conheça algumas das histórias de sucesso e momentos especiais compartilhados com nossos clientes e pacientes:</p>
             <h3 className="text-2xl font-semibold mb-4">Histórias de Sucesso</h3>
